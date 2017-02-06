@@ -4,46 +4,9 @@
 @import 'typography.scss';
 @import 'forms.scss';
 
-//mobile first
+//mobile first, never shoehorn again. Include module scss files here as you go and use the
+// responsive mixin to contain changes if/when you go away from a global style-sheet.
 
-.wrapper {
-    display:flex;
-    width:90%;
-    margin:20px auto;
-}
-
-.box {
-    flex:1;
-    justify-content: space-between;
-    width:100%;
-    height:50px;
-    background: $primaryColor;
-}
-
-.box1 {
-    @extend .box;
-    background: $lightPrimaryColor;
-}
-
-.box2 {
-    @extend .box;
-    background: $darkPrimaryColor;
-}
-
-.box3 {
-    @extend .box;
-    background: $accentColor;
-}
-
-.box4 {
-    @extend .box;
-    background: $lightAccentColor;
-}
-
-.box5 {
-    @extend .box;
-    background: $darkAccentColor;
-}
 
 @import 'tablet.scss';
 @import 'desktop.scss';
