@@ -8,7 +8,7 @@
 
 | Feature                                | Summary                                                                                                                                                                                                                                                     |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Responsive boilerplate | A responsive boilerplate optimized for the multi-screen web. Powered by [Material Design Lite](http://getmdl.io).  You're free to use either this or a completely clean-slate  via [basic.html](https://github.com/google/web-starter-kit/blob/master/app/basic.html).                          |
+| Responsive boilerplate | A responsive boilerplate optimized for the multi-screen web. Clean of any framework. You're free to use this or a completely clean-slate via index.html |
 | Sass support                           | Compile [Sass](http://sass-lang.com/) into CSS with ease, bringing support for variables, mixins and more. (Run `gulp serve` or `gulp` for production)                                                                                                      |
 | Performance optimization               | Minify and concatenate JavaScript, CSS, HTML and images to help keep your pages lean. (Run `gulp` to create an optimised version of your project to `/dist`)                                                                                                |
 | Code Linting               | JavaScript code linting is done using [ESLint](http://eslint.org) - a pluggable linter tool for identifying and reporting on patterns in JavaScript. Web Starter Kit uses ESLint with [eslint-config-google](https://github.com/google/eslint-config-google), which tries to follow the Google JavaScript style guide.                                                                                                |
@@ -73,5 +73,5 @@ Contributions, questions and comments are all welcome and encouraged. For code c
 
 ## License
 
-Apache 2.0  
+Apache 2.0
 Copyright 2015 Google Inc
